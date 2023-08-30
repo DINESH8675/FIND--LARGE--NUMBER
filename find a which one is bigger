@@ -1,0 +1,51 @@
+a=int(input("Enter  a value"))
+b=int(input("Enter b value"))
+c=int(input("Enter c value"))
+d=int(input("Enter d value"))
+e=int(input("Enter e value"))
+if a>b:
+  if a>c:
+    if a>d:
+      if a>e:
+        print("a is big ")
+      else:
+        print("e is big ")
+    else:
+      if d>e:
+        print("d is big")
+      else:
+        print("e is big")
+  else:
+    if c>d:
+      if c>e:
+        print("c is big")
+      else:
+        print("e is big")
+    else:
+      if d>e:
+        print("d is big")
+      else:
+        print("e is big")
+else:
+  if b>c:
+    if b>d:
+      if b>e:
+        print("b is big ")
+      else:
+        print("e is big")
+    else:
+      if d>e:
+        print("d id big")
+      else:
+        print("e is big")
+  else:
+    if c>d:
+      if c>e:
+        print("c is big ")
+      else:
+        print("e is big")
+    else:
+      if d>e:
+        print("d is big")
+      else:
+        print("e is big")
